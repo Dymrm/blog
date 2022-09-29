@@ -1,7 +1,7 @@
 function WaterRipple (element, settings) {
   // 默认设置
   var defaults = {
-    image: '/imgs/bg-cover.jpeg',
+    image: '../imgs/bg-cover.jpeg',
     dropRadius: 3,  // 波源半径大小
     width: 400,
     height: 400,
@@ -243,7 +243,7 @@ function init (id) {
 
   //Settings - params for WaterRippleEffect
   var settings = {
-    image: '/imgs/bg-cover.jpeg',//image path
+    image: '../imgs/bg-cover.jpeg',//image path
     dropRadius: 3,//radius of the ripple
     width: document.getElementById(id).offsetWidth,//width
     height: document.getElementById(id).offsetHeight,//height
